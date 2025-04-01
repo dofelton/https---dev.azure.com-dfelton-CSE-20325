@@ -1,0 +1,21 @@
+<h3>Select your game piece color:</h3>
+<label>Player 1: </label>
+<input type="color" @bind="User1Color" />
+<br />
+<label>Player 2: </label>
+<input type="color" @bind="User2Color" />
+<br />
+<button @onclick="StartGame">Start Game</button>
+
+@code {
+    public string User1Color { get; set; } = "#ff0000";
+    public string User2Color { get; set; } = "#0000ff";
+
+    private void StartGame()
+    {
+        OnColorsSelected?.Invoke(User1Color, User2Color);
+    }
+
+    [Parameter]
+    public EventCallback<(string, string)> OnColorsSelected { get; set; }
+}

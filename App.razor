@@ -1,0 +1,36 @@
+﻿@using Microsoft.AspNetCore.Components.Web
+@using Microsoft.AspNetCore.Components.Routing
+@using ConnectFour.Components
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <base href="/" />
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="app.css" />
+    <link rel="stylesheet" href="ConnectFour.styles.css" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <HeadOutlet />
+</head>
+
+<body>
+    <Routes />
+    <script src="_framework/blazor.web.js"></script>
+<ColorPicker OnColorsSelected="HandleColorsSelected" />
+
+</body>
+
+</html>
+
+@code {
+    private string Player1Color = "#ff0000";
+    private string Player2Color = "#0000ff";
+
+    private void HandleColorsSelected((string p1, string p2) colors)
+    {
+        Player1Color = colors.p1;
+        Player2Color = colors.p2;
+}
