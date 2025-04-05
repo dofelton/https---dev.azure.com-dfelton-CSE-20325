@@ -28,3 +28,12 @@ C:\Users\donan\ConnectFour\ConnectFour\obj\Debug\net8.0\ConnectFour.pdb
 C:\Users\donan\ConnectFour\ConnectFour\obj\Debug\net8.0\ConnectFour.genruntimeconfig.cache
 C:\Users\donan\ConnectFour\ConnectFour\obj\Debug\net8.0\ref\ConnectFour.dll
 C:\Users\donan\ConnectFour\ConnectFour\obj\Debug\net8.0\scopedcss\Components\Board.razor.rz.scp.css
+C:\Users\donan\ConnectFour\obj\Debug\net8.0\ConnectFour.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\donan\ConnectFour\obj\Debug\net8.0\ConnectFour.AssemblyInfoInputs.cache
+C:\Users\donan\ConnectFour\obj\Debug\net8.0\ConnectFour.AssemblyInfo.cs
+C:\Users\donan\ConnectFour\obj\Debug\net8.0\ConnectFour.csproj.CoreCompileInputs.cache
+C:\Users\donan\ConnectFour\obj\Debug\net8.0\ConnectFour.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\donan\ConnectFour\obj\Debug\net8.0\ConnectFour.sourcelink.json
+C:\Users\donan\ConnectFour\obj\Debug\net8.0\ConnectFour.dll
+C:\Users\donan\ConnectFour\obj\Debug\net8.0\refint\ConnectFour.dll
+C:\Users\donan\ConnectFour\obj\Debug\net8.0\ConnectFour.pdb

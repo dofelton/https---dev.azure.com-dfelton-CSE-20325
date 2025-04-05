@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\donan\\ConnectFour\\ConnectFour\\ConnectFour.csproj",
+      "projectUniqueName": "C:\\Users\\donan\\connectfour\\ConnectFour.csproj",
       "projectName": "ConnectFour",
-      "projectPath": "C:\\Users\\donan\\ConnectFour\\ConnectFour\\ConnectFour.csproj",
+      "projectPath": "C:\\Users\\donan\\connectfour\\ConnectFour.csproj",
       "packagesPath": "C:\\Users\\donan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\donan\\ConnectFour\\ConnectFour\\obj\\",
+      "outputPath": "C:\\Users\\donan\\connectfour\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\donan\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,6 +26,7 @@
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
